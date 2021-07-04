@@ -1,0 +1,24 @@
+html {
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2Ffavicon%20(8).ico?1550020954653");
+}
+
+table {
+  border: solid black 4px;
+  padding: 4px;
+}
+
+.apple {
+  background-color: dodgerblue;
+}
+
+.banana {
+  background-color: coral;
+}
+
+.candy {
+  background-color: tan;
+}
+
+.durian {
+  background-color: darkgreen;
+}

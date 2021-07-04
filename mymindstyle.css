@@ -1,0 +1,53 @@
+html {
+  text-align: center;
+  background: linear-gradient(red, yellow) no-repeat center fixed;
+  width: 100%
+}
+
+body {
+  position: relative;
+  margin: 0;
+  color: #000000;
+  width: 100%;
+}
+
+.basetentacle {
+  background-color: white;
+  color: transparent;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.basetentacle:hover {
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2FIMG_7050.PNG?1550697438573");
+  background-position: 14px, 179px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.succ {
+  background-color: black;
+  border: solid orange 25px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  animation: heccreetreetecc 5s;
+  animation-iteration-count: infinite;
+  color: transparent;
+  text-align: center;
+  padding: 70px;
+  margin-left: 25%;
+}
+
+.succ:hover {
+  color: white;
+}
+
+@keyframes heccreetreetecc {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(360deg); margin-left: 75%; }
+  100% { transform: rotate(0deg); }
+}

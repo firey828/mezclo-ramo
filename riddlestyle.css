@@ -1,0 +1,35 @@
+html {
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2Fdownload%20(6).gif?1550021621697");
+}
+
+#butterflybaby {
+  background-color: dodgerblue;
+  border: solid transparent 4px;
+  border-radius: 12px;
+}
+
+.inpy {
+  border: solid black 4px;
+  border-radius: 12px;
+}
+
+a {
+  text-decoration: none !important;
+  background-color: brown;
+}
+
+.floatyfloatboi {
+  margin-top: 0px;
+  position: absolute;
+  animation: fLOOT 2s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2FIMG_6922.PNG?1550696521972");
+  background-attachment: fixed;
+}
+
+@keyframes fLOOT {
+  0% { margin-top: 0px; }
+  50% { margin-top: 50%; }
+  100% { margin-top: 0px; }
+}

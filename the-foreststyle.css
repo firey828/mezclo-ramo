@@ -1,0 +1,61 @@
+.ahg {
+  align-content: center;
+}
+
+table {
+  border: dashed black 4px;
+  border-radius: 12px;
+  background-color: coral;
+  width: 75%;
+  margin: 0 auto;
+}
+
+a {
+  background-color: dodgerblue;
+}
+
+html {
+  font-size: 48pt;
+  animation: gqew 60s;
+  animation-iteration-count: infinite;
+}
+
+.recta {
+  height: 100px;
+  width: 334px;
+  margin-left: 370px;
+  margin-top: 25%;
+  opacity: 0.75;
+  background-color: lawngreen;
+  position: absolute;
+}
+
+.recta:hover {
+  animation: ggaa 5s;
+  animation-iteration-count: infinite;
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2FIMG_7050.PNG?1550697438573");
+  background-attachment: fixed;
+}
+
+.rabbit {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.rabbit:hover {
+  animation: ggaa 5s reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ggaa {
+  0% { transform: scale(initial); }
+  50% { transform: scale(5,5); margin-left: 75%; }
+  100% { transform: scale(initial); }
+}
+
+@keyframes gqew {
+  0% { background-color: lawngreen; }
+  50% { background-color: forestgreen; }
+  100% { background-color: lawngreen;; }
+}

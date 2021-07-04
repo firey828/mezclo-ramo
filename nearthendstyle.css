@@ -1,0 +1,125 @@
+.dotty {
+  border: dotted red 4px;
+}
+
+.dotty:hover {
+  animation: whenever 5s;
+  animation-iteration-count: infinite;
+}
+
+html {
+  background-image: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2Fdownload%20(9).jpg?1549234553927"); 
+  background-size: cover; 
+  position: relative;
+  height: 300px;
+  color: white;
+}
+
+.galaxy {
+  font-family: Lucida Console, arial;
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  border: none !important;
+}
+
+.colorfulstuff:hover {
+  animation: rainbowtie 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes whenever {
+  0% { border: dotted red 10px; }
+  50% { border: dotted red 20px; }
+  100% { border: dotted red 30px; }
+}
+
+@keyframes rainbowtie {
+  0% { color: red; }
+  25% { color: yellow; }
+  50% { color: green; }
+  75% { color: blue; }
+  100% { color: red; }
+}
+
+.circleythings {
+  border: solid transparent 4px;
+  border-radius: 100%;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.circleythingone {
+  background-color: #f33d40;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: -982px;
+  position: absolute;
+}
+
+.circleythingtwo {
+  background-color: #4fad07;
+  width: 250px;
+  height: 250px;
+  margin-left: 553px;
+  margin-top: -294px;
+  position: absolute;
+}
+
+.circleythingthree {
+  background-color: #77b5d7;
+  width: 209px;
+  height: 209px;
+  margin-left: 999px;
+  margin-top: -648px;
+  position: absolute;
+}
+
+.circleythingfour {
+  background-color: #d8ad36;
+  width: 157px;
+  height: 157px;
+  margin-left: 420px;
+  margin-top: -677px;
+  position: absolute;
+}
+
+.circleythingfive {
+  background-color: #3ea44a;
+  width: 454px;
+  height: 454px;
+  margin-left: 705px;
+  margin-top: -846px;
+  position: absolute;
+}
+
+.circleythingsix {
+  background-color: #ca2d45;
+  width: 100px;
+  height: 100px;
+  margin-left: 827px;
+  margin-top: -357px;
+  position: absolute;
+}
+
+.circleythingseven {
+  background-color: #94951e;
+  width: 407px;
+  height: 407px;
+  margin-left: 11px;
+  margin-top: -470px;
+  position: absolute;
+}

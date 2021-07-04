@@ -1,0 +1,60 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+.here {
+  color: #222222;
+  font-size: 48px;
+  text-align: center;
+}
+
+.kre {
+  position: absolute;
+  transform: rotate(20deg);
+  margin-left: 14%;
+  margin-bottom: 52%;
+}
+
+.kre:hover {
+  animation: shakeit 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shakeit {
+  0% { transform: translate(1px, 1px) rotate(20deg); }
+  10% { transform: translate(-1px, -2px) rotate(19deg); }
+  20% { transform: translate(-3px, 0px) rotate(21deg); }
+  30% { transform: translate(3px, 2px) rotate(20deg); }
+  40% { transform: translate(1px, -1px) rotate(21deg); }
+  50% { transform: translate(-1px, 2px) rotate(19deg); }
+  60% { transform: translate(-3px, 1px) rotate(20deg); }
+  70% { transform: translate(3px, 1px) rotate(19deg); }
+  80% { transform: translate(-1px, -1px) rotate(21deg); }
+  90% { transform: translate(1px, 2px) rotate(20deg); }
+  100% { transform: translate(1px, -2px) rotate(19deg); }
+}
+
+#taker {
+  position: absolute;
+  margin-left: 19.5%;
+  margin-top: 4.5%;
+  width: 20px;
+  opacity: 0;
+  height: 4px;
+}
+
+.reefcoralle {
+  cursor: url("https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2Fglowy.cur?1549145803633"), auto;
+}
+
+.giraffelionturtlething {
+  animation: lazzzshoot 0.5s;
+  animation-iteration-count: 1;
+  opacity: 1 !important;
+}
+
+@keyframes lazzzshoot {
+  0% { margin-left: 19.5%; }
+  100% { margin-left: 100%; }
+}

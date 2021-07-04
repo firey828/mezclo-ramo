@@ -1,0 +1,24 @@
+html {
+  background-color: coral;
+}
+
+.heccfree {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  overflow-y: scroll;
+}
+
+.collapsible {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+p {
+  font-size: 24px;
+}

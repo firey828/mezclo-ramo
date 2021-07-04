@@ -1,0 +1,42 @@
+html {
+  background-color: dodgerblue;
+}
+
+p {
+  font-size: 32px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: violet;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.ruleeight {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.uturnd:hover {
+  background-color: lawngreen;
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: abexp;
+  src: url(https://cdn.glitch.com/26fb3820-87d7-4dde-b75d-21d44baef9ab%2FAB_Exp_by_redfonts.ttf?1548617229750);
+}
+
+html {
+  font-family: abexp;
+}
+
+a {
+ text-decoration: none; 
+}
+
+body {
+  font-family: abexp;
+  text-align: center;
+}
+
+.titular {
+  text-align: center;
+}
+
+.ti {
+  font-size: 72px;
+}
+
+.subti {
+  font-size: 48px;
+}
+
+.startButton {
+  font-size: 72px;
+}
